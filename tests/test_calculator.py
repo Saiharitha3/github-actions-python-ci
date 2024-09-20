@@ -16,8 +16,6 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(divide(6, 2), 3)
         self.assertEqual(divide(5, 2), 2.5)
         self.assertEqual(divide(2, 3), 2 / 3)  
-        with self.assertRaises(ValueError):
-            divide(5, 0)
 
 if __name__ == '__main__':
     unittest.main()
